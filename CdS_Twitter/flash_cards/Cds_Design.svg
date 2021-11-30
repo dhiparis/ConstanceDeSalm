@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="280mm" height="210mm" viewBox="0 0 28000 21000" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+	<defs class="ClipPathGroup">
+		<clipPath id="presentation_clip_path" clipPathUnits="userSpaceOnUse">
+			<rect x="0" y="0" width="28000" height="21000"/>
+		</clipPath>
+		<clipPath id="presentation_clip_path_shrink" clipPathUnits="userSpaceOnUse">
+			<rect x="28" y="21" width="27944" height="20958"/>
+		</clipPath>
+	</defs>
+	<g class="graphic">
+		<image x="0" y="0" width="27999" height="20999" preserveAspectRatio="none" xlink:href="CdS-Hintergrund_1.jpg"/>
+		<image x="2150" y="18000" width="1838" height="1001" preserveAspectRatio="none" xlink:href="dhi_logo.png"/>
+	</g>
+	<g class="TextShape">
+		<text fill="#f69200" font-size="1388px" font-family="FrutigerNextCondensed" x="3150" y="4895">
+			<tspan class="TextPosition" x="3150">
+Voulez-vous bien, Monsieur, me
+			</tspan>
+			<tspan class="TextPosition" dy="1.2em" x="3150">
+rendre un petit service: je vais vous
+			</tspan>
+			<tspan class="TextPosition" dy="1.2em" x="3150">
+expliquer d&apos;abord, et en détail, de
+			</tspan>
+			<tspan class="TextPosition" dy="1.2em" x="3150">
+quoi il s&apos;agit, afin de n&apos;avoir plus à y
+			</tspan>
+			<tspan class="TextPosition" dy="1.2em" x="3150">
+penser et de pouvoir répondre
+			</tspan>
+			<tspan class="TextPosition" dy="1.2em" x="3150">
+tranquillement à votre lettre. ...
+			</tspan>
+			
+		</text>
+		<text x="18728" y="15722" font-family="FrutigerNextCondensed" font-size="900px" fill="#5b788c" width="3000" height="2000" text-anchor="end">
+			<tspan x="25328" text-align="right">
+				Constance de Salm
+			</tspan>
+			<tspan x="25328" dy="1.2em" text-align="right">
+				à Mirault
+			</tspan>
+			<tspan x="25328" dy="1.2em" text-align="right">
+				30/07/1832
+			</tspan>
+			
+		</text>
+		<text x="4250" y="18850" font-family="FrutigerNextCondensed" text-align="right" font-size="500px" fill="#5b788c" ><tspan>https://constance-de-salm.de/fr</tspan></text>
+	</g>
+</svg>
