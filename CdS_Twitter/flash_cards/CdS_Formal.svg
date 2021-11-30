@@ -15,8 +15,9 @@
 	</g>
 	<g class="TextShape">
 		<text fill="#f69200" font-size="1388px" font-family="FrutigerNextCondensed" x="3150" y="4895">
-			<tspan class="TextPosition" x="3150"> Tu n’auras que cette feuille</tspan>
-			<tspan class="TextPosition" x="3150" dy="1.2em">aujourd‘hui, ma chère Minette ...</tspan>
+			<tspan class="TextPosition" x="3150"> J'arrive d'Aix-la-Chapelle,</tspan>
+			<tspan class="TextPosition" x="3150" dy="1.2em">Monsieur, où, comme je vous l'ai</tspan>
+			<tspan class="TextPosition" x="3150" dy="1.2em">écrit j'ai fait imprimer ...</tspan>
 
         </text>
 		<text x="18728" y="15722" font-family="FrutigerNextCondensed" font-size="900px" fill="#5b788c" text-anchor="end">
@@ -24,10 +25,10 @@
 				Constance de Salm
 			</tspan>
 			<tspan x="25328" dy="1.2em">
-				Francq
+				Pailliet
 			</tspan>
 			<tspan x="25328" dy="1.2em">
-				27/10/1815
+				13/01/1825
 			</tspan>
 		</text>
 		<text x="4250" y="18850" font-family="FrutigerNextCondensed" font-size="500px" fill="#5b788c" ><tspan>https://constance-de-salm.de/fr</tspan></text>

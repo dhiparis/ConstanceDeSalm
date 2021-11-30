@@ -17,7 +17,7 @@ CHAR_LENGTH = [
 
 def convert_svg(file_name: str, target_file: str):
     fmap = FontMap()
-    print(fmap.register_font('FrutigerNextCondensed', 'flash_cards/FrutigerNextCondensed.ttf'))
+    fmap.register_font('FrutigerNextCondensed', 'flash_cards/FrutigerNextCondensed.ttf')
     #print(register_font('FrutigerNextCondensed', 'flash_cards/FrutigerNextCondensed.ttf'))
     drawing = svg(file_name, font_map=fmap)
     renderPM.drawToFile(drawing, target_file, fmt="PNG")
