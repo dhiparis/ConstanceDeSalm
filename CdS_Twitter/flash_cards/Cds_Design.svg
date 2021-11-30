@@ -35,18 +35,18 @@ tranquillement à votre lettre. ...
 			</tspan>
 			
 		</text>
-		<text x="18728" y="15722" font-family="FrutigerNextCondensed" font-size="900px" fill="#5b788c" width="3000" height="2000" text-anchor="end">
-			<tspan x="25328" text-align="right">
+		<text x="18728" y="15722" font-family="FrutigerNextCondensed" font-size="900px" fill="#5b788c" text-anchor="end">
+			<tspan x="25328">
 				Constance de Salm
 			</tspan>
-			<tspan x="25328" dy="1.2em" text-align="right">
+			<tspan x="25328" dy="1.2em">
 				à Mirault
 			</tspan>
-			<tspan x="25328" dy="1.2em" text-align="right">
+			<tspan x="25328" dy="1.2em">
 				30/07/1832
 			</tspan>
 			
 		</text>
-		<text x="4250" y="18850" font-family="FrutigerNextCondensed" text-align="right" font-size="500px" fill="#5b788c" ><tspan>https://constance-de-salm.de/fr</tspan></text>
+		<text x="4250" y="18850" font-family="FrutigerNextCondensed" font-size="500px" fill="#5b788c" ><tspan>https://constance-de-salm.de/fr</tspan></text>
 	</g>
 </svg>
