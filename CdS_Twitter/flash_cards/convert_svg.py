@@ -72,6 +72,6 @@ def add_informations(addressee: str, date: str) -> str:
     return ''
 
 
-print(create_flashcard_text('Voulez-vous bien, Monsieur, me rendre un petit service: je vais vous expliquer '
-                            'd\'abord, et en détail, de quoi il s\'agit, afin de n\'avoir plus à y penser '
-                            'et de pouvoir répondre tranquillement à votre lettre. ...'))
+#print(create_flashcard_text('Voulez-vous bien, Monsieur, me rendre un petit service: je vais vous expliquer '
+#                            'd\'abord, et en détail, de quoi il s\'agit, afin de n\'avoir plus à y penser '
+#                            'et de pouvoir répondre tranquillement à votre lettre. ...'))
