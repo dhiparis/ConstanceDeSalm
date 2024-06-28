@@ -1,5 +1,5 @@
 from svglib.svglib import svg2rlg as svg
-from svglib.svglib import register_font, find_font
+# from svglib.svglib import register_font, find_font
 from reportlab.graphics import renderPM
 from svglib.fonts import FontMap
 
@@ -12,13 +12,12 @@ CHAR_LENGTH = [
     ["—", "m", "w", "A", "À", "Á", "Â", "Ä", "B", "C", "Ç", "D", "E", "È", "É", "Ê", "F", "G", "H", "K", "L", "M", "N",
      "O", "Ò", "Ó", "Ô", "Ö", "P", "Q", "R", "S", "T", "U", "Ù", "Ú", "Û", "Ü", "V", "W", "X", "Y", "Z"]
 ]
-""" CHAR_LENGTH is a List of chars orderd by there printed length. """
+""" CHAR_LENGTH is a List of chars ordered by there printed length. """
 
 
 def convert_svg(file_name: str, target_file: str):
     fmap = FontMap()
     fmap.register_font('FrutigerNextCondensed', 'flash_cards/FrutigerNextCondensed.ttf')
-    #print(register_font('FrutigerNextCondensed', 'flash_cards/FrutigerNextCondensed.ttf'))
     drawing = svg(file_name, font_map=fmap)
     renderPM.drawToFile(drawing, target_file, fmt="PNG")
 
@@ -53,14 +52,14 @@ def create_flashcard_text(text: str) -> str:
         else:
             line.append(i)
     svg_content = ''
-    for l in range(len(line)):
-        svg_content += '\t\t\t<tspan class="TextPosition" x="3150"{1}>{0}</tspan>\n'.format(line[l],
-                                                                                            ' dy="1.2em"' if l != 0
+    for ln in range(len(line)):
+        svg_content += '\t\t\t<tspan class="TextPosition" x="3150"{1}>{0}</tspan>\n'.format(line[ln],
+                                                                                            ' dy="1.2em"' if ln != 0
                                                                                             else '')
     return svg_content
 
 
-def add_informations(addressee: str, date: str) -> str:
+def add_information(addressee: str, date: str) -> str:
     """
     This function generates the information about person to which the letter is addressed and the date.
 
@@ -72,6 +71,6 @@ def add_informations(addressee: str, date: str) -> str:
     return ''
 
 
-#print(create_flashcard_text('Voulez-vous bien, Monsieur, me rendre un petit service: je vais vous expliquer '
+# print(create_flashcard_text('Voulez-vous bien, Monsieur, me rendre un petit service: je vais vous expliquer '
 #                            'd\'abord, et en détail, de quoi il s\'agit, afin de n\'avoir plus à y penser '
 #                            'et de pouvoir répondre tranquillement à votre lettre. ...'))
